@@ -1,0 +1,5 @@
+# OS-specific
+.DS_Store
+
+# Config
+/wpa_supplicant.conf
