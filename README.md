@@ -10,24 +10,22 @@ Setting up a Raspberry Pi 3/3B+ without keyboard, mouse and ethernet cable.
 * [Raspberry Pi 3/3B+](https://www.raspberrypi.org/products/)
 * Power supply
 * Formatted Micro SD card ([there are some guidelines that should be followed](https://www.raspberrypi.org/documentation/installation/sd-cards.md))
+    * [How to format a SD Card as FAT32 Using Mac Command Line](http://learningthings.info/index.php/2016/06/24/learning-to-format-a-sd-card-as-fat32-using-mac-command-line/)
 * Micro SD card reader
 
 ### Software / tools
 
-* SD Memory Card Formatter 
-* Image writing tool (e.g.: [Etcher](https://etcher.io))
+* SD Memory Card Formatter
 * OS for Raspberry Pi (choose one)
-    * [Raspbian stretch with desktop](https://www.raspberrypi.org/downloads/raspbian/)
-    * [Raspbian stretch lite](https://www.raspberrypi.org/downloads/raspbian/)
+    * [Raspbian Buster with desktop](https://www.raspberrypi.org/downloads/raspbian/)
+    * [Raspbian Buster lite](https://www.raspberrypi.org/downloads/raspbian/)
 * Terminal (Mac OS)
 
 ## Prepare SD card
 
 1. Insert your formatted SD Card into your SD card reader.
-2. Download the [Raspbian Lite disk image](https://www.raspberrypi.org/downloads/raspbian/).
-3. Unzip the file and run **Etcher**.
-4. Select the unzipped disk image file and destination (your SD card), click **Flash**, and wait until Etcher flashes the image.
-5. When the process is finished Etcher will automatically unmount the SD card, so you need to remove and then insert your SD card to your reader again.
+2. Download the [Raspbian disk image](https://www.raspberrypi.org/downloads/raspbian/).
+3. [Write the image to an SD using terminal](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
 
 ## Enable SSH
 

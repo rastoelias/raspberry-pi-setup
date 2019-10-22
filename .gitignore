@@ -3,3 +3,6 @@
 
 # Config
 /wpa_supplicant.conf
+
+# img files
+*.img
